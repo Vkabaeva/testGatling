@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="DESKTOP-4SMIJET" name="load.LoadScript" tests="1" errors="0" failures="1" skipped="0" time="2000.588" timestamp="2018-10-01T14:04:30">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Java\jdk_8u161\jre\bin"/><property name="java.vm.version" value="25.161-b12"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="RU"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\workspace\TestGatling"/><property name="java.runtime.version" value="1.8.0_161-b12"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Java\jdk_8u161\jre\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\vkabaeva\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1251"/><property name="jnidispatch.path" value="C:\Users\vkabaeva\AppData\Local\Temp\jna--1457641371\jna5543831690674957721.dll"/><property name="java.library.path" value="C:\Java\jdk_8u161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Java\jdk_8u161\\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\sbt\\bin;C:\Users\vkabaeva\AppData\Local\Microsoft\WindowsApps;C:\Java\jdk_8u161\\bin\;C:\maven\\bin\;C:\apache-jmeter-4.0\bin\;C:\allure-commandline\bin;C:\Java\jdk-10.0.2\\bin;;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="user.home" value="C:\Users\vkabaeva"/><property name="user.timezone" value="Europe/Moscow"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="Cp1251"/><property name="java.specification.version" value="1.8"/><property name="sbt.log.format" value="true"/><property name="java.class.path" value="C:\sbt\bin\sbt-launch.jar"/><property name="user.name" value="vkabaeva"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="xsbt.boot.Boot"/><property name="java.home" value="C:\Java\jdk_8u161\jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="ru"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_161"/><property name="java.ext.dirs" value="C:\Java\jdk_8u161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Java\jdk_8u161\jre\lib\resources.jar;C:\Java\jdk_8u161\jre\lib\rt.jar;C:\Java\jdk_8u161\jre\lib\sunrsasign.jar;C:\Java\jdk_8u161\jre\lib\jsse.jar;C:\Java\jdk_8u161\jre\lib\jce.jar;C:\Java\jdk_8u161\jre\lib\charsets.jar;C:\Java\jdk_8u161\jre\lib\jfr.jar;C:\Java\jdk_8u161\jre\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp866"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp866"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="load.LoadScript" name="LoadScript" time="2000.588">
+                                                 <failure message="java.lang.IllegalArgumentException: Could not locate feeder file: file C:\test_users.csv doesn't exist" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.IllegalArgumentException: Could not locate feeder file: file C:\test_users.csv doesn't exist
+	at io.gatling.core.feeder.FeederSupport.feederBuilder(FeederSupport.scala:53)
+	at io.gatling.core.feeder.FeederSupport.feederBuilder$(FeederSupport.scala:50)
+	at io.gatling.core.Predef$.feederBuilder(Predef.scala:22)
+	at io.gatling.core.feeder.FeederSupport.separatedValues(FeederSupport.scala:44)
+	at io.gatling.core.feeder.FeederSupport.separatedValues$(FeederSupport.scala:43)
+	at io.gatling.core.Predef$.separatedValues(Predef.scala:22)
+	at io.gatling.core.feeder.FeederSupport.separatedValues(FeederSupport.scala:41)
+	at io.gatling.core.feeder.FeederSupport.separatedValues$(FeederSupport.scala:40)
+	at io.gatling.core.Predef$.separatedValues(Predef.scala:22)
+	at io.gatling.core.feeder.FeederSupport.ssv(FeederSupport.scala:36)
+	at io.gatling.core.feeder.FeederSupport.ssv$(FeederSupport.scala:35)
+	at io.gatling.core.Predef$.ssv(Predef.scala:22)
+	at load.LoadScript.&lt;init&gt;(LoadScript.scala:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at io.gatling.app.Runner.run0(Runner.scala:79)
+	at io.gatling.app.Runner.run(Runner.scala:64)
+	at io.gatling.app.Gatling$.start(Gatling.scala:63)
+	at io.gatling.app.Gatling$.fromArgs(Gatling.scala:45)
+	at io.gatling.sbt.GatlingTask.liftedTree1$1(GatlingTask.scala:51)
+	at io.gatling.sbt.GatlingTask.execute(GatlingTask.scala:50)
+	at sbt.ForkMain$Run.lambda$runTest$1(ForkMain.java:304)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
